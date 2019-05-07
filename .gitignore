@@ -22,3 +22,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+#Added .DS_Store file
+.DS_Store
