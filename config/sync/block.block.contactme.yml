@@ -1,0 +1,25 @@
+uuid: ccaa1426-b203-4a8f-8335-fa45b688d4a4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a3a8fb08-e5a2-4b30-b6bb-f4e9332c9da0'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: contactme
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:a3a8fb08-e5a2-4b30-b6bb-f4e9332c9da0'
+settings:
+  id: 'block_content:a3a8fb08-e5a2-4b30-b6bb-f4e9332c9da0'
+  label: 'Contact Me'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
