@@ -26,7 +26,7 @@
         "drupal/ds": "^3.3",
         "drupal/easy_breadcrumb": "^1.12",
         "drupal/pathauto": "^1.4",
-        "drupal/weather": "1.x-dev",
+        "drupal/search_api": "^1.13",
         "drush/drush": "^9.6",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
