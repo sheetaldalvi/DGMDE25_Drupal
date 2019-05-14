@@ -1,0 +1,18 @@
+uuid: 52be294f-0d8a-4a57-b11e-f6109d8966a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photo_gallery
+id: node.photo_gallery.title
+field_name: title
+entity_type: node
+bundle: photo_gallery
+label: Gallery
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
