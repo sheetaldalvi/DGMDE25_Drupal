@@ -1,0 +1,28 @@
+uuid: abeb8b74-e9bb-4f7d-a1c0-85ff71d2b982
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.custom_search.body
+    - node.type.custom_search
+  module:
+    - text
+    - user
+id: node.custom_search.default
+targetEntityType: node
+bundle: custom_search
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

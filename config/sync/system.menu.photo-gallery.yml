@@ -1,0 +1,8 @@
+uuid: fea97b67-f95c-4f2a-91c6-6f0d284cd268
+langcode: en
+status: true
+dependencies: {  }
+id: photo-gallery
+label: 'Photo Gallery'
+description: 'Photo Gallery'
+locked: false

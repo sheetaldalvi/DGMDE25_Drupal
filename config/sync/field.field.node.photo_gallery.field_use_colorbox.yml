@@ -11,7 +11,7 @@ id: node.photo_gallery.field_use_colorbox
 field_name: field_use_colorbox
 entity_type: node
 bundle: photo_gallery
-label: 'Use Colorbox'
+label: 'Photo Gallery'
 description: ''
 required: false
 translatable: false
@@ -25,7 +25,7 @@ settings:
   min_resolution: ''
   alt_field: true
   alt_field_required: false
-  title_field: true
+  title_field: false
   title_field_required: false
   default_image:
     uuid: ''
