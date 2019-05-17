@@ -38,11 +38,9 @@ body {
 .main-nav .region-primary-menu ul li{
   display: inline-block;
   padding-right: 1.2em;
-  transition: transform 1s;
 }
 .main-nav .region-primary-menu ul li a:focus, .main-nav .region-primary-menu ul li a:hover{
-  transform: scale(1.2);
-  color : #2e2b3f;
+  transform: scale(1.5);
 }
 .main-nav .region-secondary-menu {
   float : right;
