@@ -11,7 +11,7 @@ id: node.address.body
 field_name: body
 entity_type: node
 bundle: address
-label: 'Contact information'
+label: 'Contact Info'
 description: ''
 required: false
 translatable: true

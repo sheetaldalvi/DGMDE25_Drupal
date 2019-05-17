@@ -9,28 +9,6 @@ dependencies:
     - colorbox
     - ds
     - user
-third_party_settings:
-  ds:
-    layout:
-      id: ds_3col_equal_width
-      library: ds/ds_3col_equal_width
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        wrappers:
-          left: div
-          middle: div
-          right: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-        classes:
-          layout_class: {  }
-    regions:
-      left:
-        - field_use_colorbox
-        - links
 id: node.photo_gallery.default
 targetEntityType: node
 bundle: photo_gallery
@@ -39,7 +17,7 @@ content:
   field_use_colorbox:
     type: colorbox
     weight: 0
-    region: left
+    region: content
     label: visually_hidden
     settings:
       colorbox_node_style: ''
@@ -54,7 +32,7 @@ content:
         ds_limit: ''
   links:
     weight: 0
-    region: left
+    region: content
     settings: {  }
     third_party_settings: {  }
 hidden: {  }
