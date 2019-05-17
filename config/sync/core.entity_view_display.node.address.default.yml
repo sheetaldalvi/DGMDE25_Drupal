@@ -1,0 +1,76 @@
+uuid: dadda2ae-5ba0-44d3-a2a9-1a4bd215adf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.address.body
+    - field.field.node.address.field_email
+    - field.field.node.address.field_phone
+    - field.field.node.address.field_postal_code
+    - field.field.node.address.field_street_address
+    - field.field.node.address.field_website
+    - node.type.address
+  module:
+    - link
+    - text
+    - user
+id: node.address.default
+targetEntityType: node
+bundle: address
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_postal_code:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_street_address:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_website:
+    weight: 106
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

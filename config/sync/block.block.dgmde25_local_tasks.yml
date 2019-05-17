@@ -1,0 +1,22 @@
+uuid: f89c5787-2f86-4e63-a0da-0c614ebe778d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dgmde25
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: dgmde25_local_tasks
+theme: dgmde25
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

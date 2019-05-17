@@ -1,0 +1,23 @@
+uuid: a711f01b-d65f-4d2c-b042-07b15bdd38c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_postal_code
+    - node.type.address
+id: node.address.field_postal_code
+field_name: field_postal_code
+entity_type: node
+bundle: address
+label: 'Postal Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 99999
+  prefix: ''
+  suffix: ''
+field_type: integer

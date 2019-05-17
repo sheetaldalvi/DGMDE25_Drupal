@@ -1,0 +1,22 @@
+uuid: 113d83d6-a5f9-469c-9bad-fe4672dd9795
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.address
+  module:
+    - text
+id: node.address.body
+field_name: body
+entity_type: node
+bundle: address
+label: 'Contact information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

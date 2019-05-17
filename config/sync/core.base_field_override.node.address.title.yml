@@ -1,0 +1,18 @@
+uuid: 517d2109-d93b-4220-8255-183ee05686c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.address
+id: node.address.title
+field_name: title
+entity_type: node
+bundle: address
+label: Contact
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

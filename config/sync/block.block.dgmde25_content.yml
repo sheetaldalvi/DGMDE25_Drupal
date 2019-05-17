@@ -1,0 +1,33 @@
+uuid: 22ec76b3-405e-4522-8fbc-2635d303bdb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+  theme:
+    - dgmde25
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dgmde25_content
+theme: dgmde25
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      address: address
+      article: article
+      page: page
+      photo_gallery: photo_gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

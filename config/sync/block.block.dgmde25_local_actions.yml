@@ -1,0 +1,20 @@
+uuid: 4cdefdb8-1a91-4341-ad95-4d6a16986e63
+langcode: en
+status: false
+dependencies:
+  theme:
+    - dgmde25
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: dgmde25_local_actions
+theme: dgmde25
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: bc94370d-621b-4595-a7ca-bf67729d001c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dgmde25
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: dgmde25_powered
+theme: dgmde25
+region: footer_second
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

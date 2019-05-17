@@ -1,0 +1,32 @@
+uuid: 8c6af53f-c739-4c72-a9da-6f9c1d02cb32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contact_view
+  module:
+    - ctools
+    - views
+  theme:
+    - dgmde25
+id: views_block__contact_view_block_1
+theme: dgmde25
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:contact_view-block_1'
+settings:
+  id: 'views_block:contact_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      address: address
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

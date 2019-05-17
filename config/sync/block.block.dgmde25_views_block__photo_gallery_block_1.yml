@@ -1,0 +1,30 @@
+uuid: 5a4b86ee-e690-4eed-ac1a-115c4549b314
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.photo_gallery
+  module:
+    - system
+    - views
+  theme:
+    - dgmde25
+id: dgmde25_views_block__photo_gallery_block_1
+theme: dgmde25
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:photo_gallery-block_1'
+settings:
+  id: 'views_block:photo_gallery-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  request_path:
+    id: request_path
+    pages: photo-gallery
+    negate: false
+    context_mapping: {  }

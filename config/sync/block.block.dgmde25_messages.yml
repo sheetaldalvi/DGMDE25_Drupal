@@ -1,0 +1,22 @@
+uuid: 2f1da5c5-62dd-48a0-b9a9-4629bcef33d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dgmde25
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: dgmde25_messages
+theme: dgmde25
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
