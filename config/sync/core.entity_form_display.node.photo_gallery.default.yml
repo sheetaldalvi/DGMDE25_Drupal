@@ -44,7 +44,7 @@ content:
   status:
     type: boolean_checkbox
     settings:
-      display_label: true
+      display_label: false
     weight: 120
     region: content
     third_party_settings: {  }

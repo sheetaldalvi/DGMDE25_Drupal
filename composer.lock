@@ -7139,7 +7139,8 @@
             "homepage": "https://www.drupal.org/project/weather_wunderground",
             "support": {
                 "source": "https://git.drupalcode.org/project/weather_wunderground"
-            }
+            },
+            "time": "2018-02-08T11:24:25+00:00"
         },
         {
             "name": "fabpot/goutte",
