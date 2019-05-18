@@ -56,7 +56,11 @@ main {
   padding : 2%;
   box-shadow: 0 0 10px grey;
 }
-
+.contextual-region > h2 > a {
+  pointer-events: none;
+  cursor: default;
+  display:inline-block;
+}
 img {
   width : 600px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

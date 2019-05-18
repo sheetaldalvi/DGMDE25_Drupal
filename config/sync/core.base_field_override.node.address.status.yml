@@ -1,0 +1,22 @@
+uuid: 83ef9c0e-1f25-4e73-ba2d-603892bc9fc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.address
+id: node.address.status
+field_name: status
+entity_type: node
+bundle: address
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

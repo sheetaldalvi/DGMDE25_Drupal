@@ -1,10 +1,15 @@
 uuid: 296d9b3c-2f1d-4985-be97-de15ae73fd1c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.address.body
+    - field.field.node.address.field_email
+    - field.field.node.address.field_phone
+    - field.field.node.address.field_postal_code
+    - field.field.node.address.field_street_address
+    - field.field.node.address.field_website
     - node.type.address
   module:
     - text
@@ -27,4 +32,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_email: true
+  field_phone: true
+  field_postal_code: true
+  field_street_address: true
+  field_website: true
